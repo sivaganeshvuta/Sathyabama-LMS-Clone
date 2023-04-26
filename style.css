@@ -37,18 +37,42 @@ header {
     align-items: center;
 }
 
+.option-list {
+    padding:20px 10px;
+    margin-right: 2vw;
+}
+
+.option-list:hover {
+    padding:20px 10px;
+    margin-right: 2vw;
+    color: #831238;
+    background-color: white;
+}
+
 header select {
     font-size: 0.9rem;
-    margin-right: 2vw;
     color: white;
     background-color: transparent;
     border: 0;
+    margin: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header select:hover {
+    font-size: 0.9rem;
+    color: #831238;
+    border: 0;
+    margin: 0;
 }
 
 header img {
     height: auto;
     width: 100%;
     margin-left: 2vw;
+}
+
+header option {
+    color: #831238;
 }
 
 main {
@@ -122,7 +146,7 @@ input {
     margin-bottom: 3%;
 }
 
-a,p,label,input {
+a,p,label,input,option {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
