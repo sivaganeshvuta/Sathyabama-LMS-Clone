@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* flex-wrap: wrap; */
+    font-family: 'Arvo', serif;
+}
+
+nav {
+    z-index: 1;
+    display: flex;
+    position: fixed;
+    background-color: #9e1c3f;
+    height: 7vh;
+    width: 100%;
+    top: 0;
+    align-items: center;
+    justify-content: end;
+    font-size: 0.8rem;
+    color: white;
+}
+
+nav p {
+    margin-right: 2vw;
+}
+
+header {
+    position: relative;
+    top:7vh;
+    display: flex;
+    flex-wrap: wrap;
+    height: 15.2vh;
+    background-color: #831238;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.option-list {
+    padding:20px 10px;
+    margin-right: 2vw;
+}
+
+.option-list:hover {
+    padding:20px 10px;
+    margin-right: 2vw;
+    color: #831238;
+    background-color: white;
+}
+
+header select {
+    font-size: 0.9rem;
+    color: white;
+    background-color: transparent;
+    border: 0;
+    margin: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header select:hover {
+    font-size: 0.9rem;
+    color: #831238;
+    border: 0;
+    margin: 0;
+}
+
+header img {
+    height: auto;
+    width: 100%;
+    margin-left: 2vw;
+}
+
+header option {
+    color: #831238;
+}
+
+main {
+    /* border: 1px solid blue; */
+    border-bottom: 5px solid #831238;
+    position: relative;
+    top:7vh;
+    /* height: 70vh; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.outer-box {
+    /* height: 380px; */
+    /* height: 50vh; */
+    margin: 70px 10px;
+    width: 650px;
+    border: 0.1px solid #dfdfdf;
+}
+
+.outer-box h2 {
+    color:#9e1c3f;
+    padding: 0.5rem;
+    font-size: 1.8rem;
+    text-align: center;
+    background-color: #f7f7f7;
+    font-family: 'Arvo', serif;
+    font-weight: 100;
+    /* border: 1px solid black; */
+}
+
+.inner-box {
+    /* height: 400px; */
+    display: flex;
+    /* justify-content:safe; */
+    flex-wrap: wrap;
+    border: 0.1px solid #dfdfdf;
+    padding: 4% 2%;
+    /* margin-bottom: 4%; */
+}
+
+.inner-box a{
+    /* border: 1px solid blue; */
+    color: #9e1c3f;
+    text-decoration: none;
+    /* padding: 4% auto; */
+}
+
+.inner-box p {
+    /* border: 1px solid blue; */
+    margin-top: 2%;
+}
+
+.login-box {
+    width: 50%;
+    flex-grow: 1;
+}
+
+.second-part {
+    margin-left: 10px;
+}
+
+input {
+    border: 0.1px solid #dfdfdf;
+    font-size: 1rem;
+    padding: 10px;
+    display: block;
+    width: 100%;
+    margin-bottom: 3%;
+}
+
+a,p,label,input,option {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+input[type="submit"] {
+    display: block;
+    width: fit-content;
+    /* margin-bottom: 4%; */
+    background-color:#9e1c3f ;
+    color: white;
+    border: none;
+    margin-top: 2%;
+    font-family:'Arvo', seriff;
+}
+
+input[type="submit"]:hover {
+    background-color:#831238;
+}
+
+input[type="checkbox"] {
+    height: 1rem;
+    font-size: rem;
+    display: inline;
+    width: fit-content;
+}
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    /* margin-top: 10px; */
+    flex-direction: row;
+    font-family:'Arvo', seriff;
+    justify-content: space-evenly;
+    /* margin-top: 3vh; */
+    top: 35px;
+}
+
+.left {
+    /* border: 1px solid black; */
+    /* height: 200px;
+    width: 350px; */
+    position: relative;
+    top: 50px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    /* padding-left: 10px; */
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.center {
+    /* border: 1px solid black; */
+    /* height: 200px;
+    width: 350px; */
+    position: relative;
+    top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* padding-left: 10px; */
+    font-weight: 500;
+    color: black;
+}
+
+.left img {
+    width: 220px;
+}
+
+.right {
+    position: relative;
+    top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    /* padding-left: 10px; */
+    font-weight: 500;
+}
+
+hr {
+    position: relative;
+    top: 100px;
+    height: 2px;
+    background-color: #831238;
+}
+
+footer a{
+    padding: 5px 0;
+    color: black;
+}
+
+.foot {
+    position: relative;
+    top: 110px;
+    text-align: center;
+    margin-bottom: 120px;
+}
